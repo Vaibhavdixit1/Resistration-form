@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(113, 43, 179);
+}
+.form{
+    width: 500px;
+    height: 650px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    right: 20%;
+    bottom: 20%;
+      transform: translate(-50%,-50%p);
+    padding: 20px 30px;
+    margin: 10px 0; 
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #222;
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row .col:first-child{
+    margin-right: 20px;
+}
+.gender{
+    font-size: 18px;
+}
+.gender .row .col{
+    display: flex;
+}
+.gender .row .col input{
+margin-right: 10px ;
+margin-top:  5px;
+}
+.chkbox input{
+    width: auto;
+}
+.chkbox{
+    font-size: 18px;
+}
+.signup ,.continue{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin:10px 0 ;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.sign{
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(52, 216, 52);
+    box-shadow: inset 1px 1px 1px 0;
+    transition: all .4s;
+}
+.fb{
+    background-color: #4267b2;
+}
+.google{
+    background-color:#ff0000;
+}
+.sign:hover{
+    background-color:blueviolet;
+    box-shadow: 1px 1px 1px 0;
+}
+.fb:hover{
+    background-color: #fff;
+    color:#4267b2 ;
+    transition: all .4s;
+}
+.google:hover{
+    background-color: #fff;
+    color:#ff0000b2 ;
+    transition: all .4s;
+}
+.already{
+    padding: 10px 0;
+    text-align: center;
+}
+a{
+    color: #14b065;
+}
+ /*@media(max-width:10px){
+    .form{
+        width: 200px;
+         height: 800px; 
+    }
+    .row{
+        display: block;
+    }
+    .row .col:first-child{
+        margin-right: 0px;
+
+    }
+    .gender .row{
+        display: flex;
+    }
+    .sign{
+        width: 50%;
+    }
+    input{
+        margin: 5px o;
+    }
+}*/
